@@ -5,3 +5,9 @@ spring:
       profile: dev
       label: master
       uri: http://127.0.0.1:12000
+
+jwt:
+  config:
+    # 加盐
+    key: lmzw
+    ttl: 3600000
